@@ -44,14 +44,6 @@
         </ul>
         {% endif %}
 
-        <p>
-          <a href="https://travis-ci.org/match-toy/match-toy"><img src="https://travis-ci.org/match-toy/match-toy.svg?branch=master" alt="Build Status"></a> <br>
-          <a href="https://codeclimate.com/github/match-toy/match-toy/test_coverage"><img src="https://api.codeclimate.com/v1/badges/b4ef038eea888a8a8cfb/test_coverage" alt="Test Coverage"></a> <br>
-          <a href="https://greenkeeper.io/"><img src="https://badges.greenkeeper.io/match-toy/match-toy.svg" alt="Greenkeeper badge"></a> <br>
-          <a href="https://badge.fury.io/js/match-toy"><img src="https://badge.fury.io/js/match-toy.svg" alt="npm version"></a> <br>
-          <a href="https://npm.runkit.com/match-toy"><img src="https://badge.runkitcdn.com/match-toy.svg" alt="Try match-toy on RunKit"></a>
-        </p>
-
         <a class="github-button" href="https://github.com/match-toy/match-toy" data-icon="octicon-star" data-size="large" aria-label="Star match-toy/match-toy on GitHub">Star</a>
         <a class="github-button" href="https://github.com/match-toy" data-size="large" aria-label="Follow @match-toy on GitHub">Follow @match-toy</a>
 
@@ -62,10 +54,28 @@
 
       </section>
       <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+          <ul class="badges">
+            <li>
+                <a href="https://nodei.co/npm/match-toy/"><img src="https://nodei.co/npm/match-toy.png?mini=true"></a>
+                <br>
+                <br>
+            </li>
+            <li>
+                <a href="https://travis-ci.org/match-toy/match-toy"><img src="https://travis-ci.org/match-toy/match-toy.svg?branch=master" alt="Build Status"></a>
+            </li>
+            <li>
+              <a href="https://codeclimate.com/github/match-toy/match-toy/test_coverage"><img src="https://api.codeclimate.com/v1/badges/b4ef038eea888a8a8cfb/test_coverage" alt="Test Coverage"></a></li>
+            <li>
+              <a href="https://greenkeeper.io/"><img src="https://badges.greenkeeper.io/match-toy/match-toy.svg" alt="Greenkeeper badge"></a>
+            </li>
+            <li>
+              <a href="https://badge.fury.io/js/match-toy"><img src="https://badge.fury.io/js/match-toy.svg" alt="npm version"></a>
+            </li>
+            <li>
+              <a href="https://npm.runkit.com/match-toy"><img src="https://badge.runkitcdn.com/match-toy.svg" alt="Try match-toy on RunKit"></a>
+            </li>
+          </ul>
+            
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>

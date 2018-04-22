@@ -4,7 +4,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://match-toy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  match-toy
 encoding: UTF-8
-show_downloads: "true"
+show_downloads: false
 google_analytics: "UA-117997488-1"
 logo: "assets/match-toy-logo.svg"
 title: "Match-Toy"
