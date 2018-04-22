@@ -1,1 +1,29 @@
+
+email: alfonsocfilho@gmail.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://match-toy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  match-toy
+encoding: UTF-8
+show_downloads: "true"
+google_analytics: "UA-117997488-1"
+
+# Build settings
+markdown: kramdown
 theme: jekyll-theme-minimal
+github: [metadata]
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
+  - jekyll-mentions
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
