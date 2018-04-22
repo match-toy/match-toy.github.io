@@ -6,6 +6,8 @@ github_username:  match-toy
 encoding: UTF-8
 show_downloads: "true"
 google_analytics: "UA-117997488-1"
+logo: "assets/match-toy-logo.svg"
+title: "Match-Toy"
 
 # Build settings
 markdown: kramdown
